@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    >
+    
+
+    <RelativeLayout 
+        android:id="@+id/shake_title_bar" 
+  		android:layout_width="fill_parent"
+  		android:layout_height="45dp"
+  		android:background="@drawable/title_bar"
+  		android:gravity="center_vertical"  >
+  			<Button
+            	android:layout_width="70dp"
+            	android:layout_height="wrap_content"
+            	android:layout_centerVertical="true"
+            	android:text="返回"
+            	android:textSize="14sp"
+            	android:textColor="#fff"
+            	android:onClick="activity_back"
+           		android:background="@drawable/mm_title_back_normal"/>  
+      		<TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="数据同步"
+        		android:layout_centerInParent="true"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" /> 
+			
+	</RelativeLayout>
+	
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="180dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/loading_bg" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+            
+            <ProgressBar
+        		android:id="@+id/sameprogressBar"
+        		style="?android:attr/progressBarStyleHorizontal"
+        		android:layout_width="fill_parent"
+        		android:layout_height="50dp"        
+        		android:layout_gravity="center_horizontal"
+        		
+         	/>
+      
+        	<TextView
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:text="正在下载"
+       			android:layout_marginTop="10dp"
+        		android:textColor="#fff"
+        		android:textSize="20sp"
+        />
+        </LinearLayout>
+
+    </RelativeLayout>
+    
+    
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fcfcfc"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:clickable="true"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/cameralistTextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="姓名"
+            android:textSize="20dp"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="7dp"
+            android:text="已签到"
+            android:textSize="20dp"
+            android:textColor="#666" />
+
+        <TextView
+            android:id="@+id/cameramytextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:padding="7dp"
+            android:text="学号"
+            android:textSize="20dp"
+            android:textColor="#666" />
+
+        <TextView
+            android:id="@+id/cameramyclass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/cameralistTextView1"
+            android:padding="7dp"
+            android:text="班级"
+            android:textSize="20dp"
+            android:textColor="#666" />
+    </RelativeLayout>
+
+ </LinearLayout>

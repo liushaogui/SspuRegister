@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/about_layout"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@drawable/confirm_dialog_bg2" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:padding="5dp"
+            android:textColor="#333"
+            android:textSize="20sp"
+            android:text="考勤系统" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#333"
+            android:layout_marginTop="1dp"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:gravity="center_horizontal"
+            android:text="技术支持，欢迎访问\nweibo.com/sspulinux\n版本  V1.0" />
+        
+         <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"           
+            android:layout_marginTop="33dp"
+            android:layout_marginBottom="8dp"
+             >
+            
+            <Button
+              android:id="@+id/aboutBtn0"
+              android:layout_width="110dp"
+              android:layout_height="wrap_content"
+              android:text="前往"
+              android:textSize="16sp"
+              android:textColor="#fff"
+              android:background="@drawable/btn_style_alert_dialog_button_pressed"
+              android:gravity="center"
+			  android:onClick="aboutbutton0"
+              />
+            
+            <Button
+              android:id="@+id/aboutBtn1"
+              android:layout_width="110dp"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:text="否"
+              android:textSize="16sp"
+              android:textColor="#333"
+              android:background="@drawable/btn_style_alert_dialog_button_normal"
+              android:gravity="center"
+			  android:onClick="aboutbutton1"
+              />
+        </LinearLayout>
+        
+        
+
+       
+    </LinearLayout>

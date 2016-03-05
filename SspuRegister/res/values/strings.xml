@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">考勤系统</string>
+    <string name="exit">退出系统</string>
+    <string name="about">关于软件</string>
+</resources>
